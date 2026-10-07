@@ -1,0 +1,68 @@
+* {
+  box-sizing:border-box
+}
+
+body {
+  margin:0;
+  background:#202529;
+  color:#fff;
+  font:16px system-ui
+}
+
+main {
+  max-width:1000px;
+  margin:24px auto;
+  padding:16px
+}
+
+h1 {
+  font-size:26px
+}
+
+small {
+  font-size:14px;
+  color:#9dc2ff
+}
+
+canvas {
+  width:100%;
+  background:#598ffa;
+  border:3px solid #05090d;
+  image-rendering:pixelated
+}
+
+nav {
+  display:flex;
+  gap:12px;
+  flex-wrap:wrap;
+  margin-top:16px;
+  align-items:center
+}
+
+button,select {
+  background:#3665dd;
+  color:white;
+  border:0;
+  padding:12px;
+  border-radius:5px;
+  font:inherit;
+  cursor:pointer
+}
+
+a {
+  color:#9dc2ff
+}
+
+p {
+  color:#b9c6d8
+}
+
+.touch {
+  display:flex;
+  gap:12px;
+  touch-action:none
+}
+
+.touch button:last-child {
+  margin-left:auto
+}
